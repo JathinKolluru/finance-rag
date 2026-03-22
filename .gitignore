@@ -1,0 +1,17 @@
+# Secret keys — NEVER upload these
+.env
+
+# Python virtual environment — too large to upload
+venv/
+
+# FAISS index — regenerated locally
+faiss_index/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Sample docs (optional — remove this line if you want to include them)
+data/sample_docs/
